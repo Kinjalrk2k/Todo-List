@@ -3,22 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- custom css -->
     <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- google fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
     />
     <title>Todo List</title>
   </head>
   <body>
     <div id="container">
-      <h1>To-do List</h1>
-      <input type="text" name="" id="" placeholder="Add New Todo" />
+      <h1>To-do List <i class="fa fa-plus"></i></h1>
+      <input type="text" name="" id="" placeholder="Add New Todo" maxlength="40"/>
 
       <ul>
-        <li><span>X</span> Todo</li>
-        <li><span>X</span> Todo</li>
-        <li><span>X</span> Todo</li>
+        <li>
+          <span><i class="fa fa-trash"></i></span> Todo
+        </li>
+        <li>
+          <span><i class="fa fa-trash"></i></span> Todo
+        </li>
+        <li>
+          <span><i class="fa fa-trash"></i></span> Todo
+        </li>
       </ul>
     </div>
 
